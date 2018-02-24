@@ -10,7 +10,7 @@ profile.set_preference('network.proxy.socks_port', 9150)
 
 
 count = 0
-for i in range(100):
+for i in range(10):
     driver = webdriver.Firefox(profile)
     driver.get("https://www.youtube.com/watch?v=wRb12E9mEKY")
     sleep(2)
